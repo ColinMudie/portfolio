@@ -12,35 +12,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0acc8112cb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg   navbar-custom">
-        <a class="navbar-brand nav-link-custom" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link nav-link-custom active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link nav-link-custom" href="#">About</a>
-                <a class="nav-link nav-link-custom" href="#">Projects</a>
-            </div>
-        </div>
-    </nav>
     <!-- JumboTron -->
     <div class="jumbotron jumbotron-fluid jumbotron-custom">
         <div class="container">
             <h1 class="display-4">Colin Mudie</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
+    <!-- Navbar -->
+    <nav class="nav flex-column">
+        <a class="nav-link nav-link-custom active" href="index.html">Home</a>
+        <a class="nav-link nav-link-custom" href="#">About</a>
+        <a class="nav-link nav-link-custom" href="#">Projects</a>
+    </nav>
+    <!-- Quick Info & Links Card -->
+    <div class="card card-custom" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Hello!</h5>
 
-
-
+            <p class="card-text">I am a fullstack web developer who currently lives in Mt. Pleasant, MI.
+                Feel free to look at some of my projects.</p>
+            <p class="card-text">If you're looking for help on a future project contact me here so we can talk!
+            </p>
+            <a href="mailto:csmudie1@gmail.com" class="card-link-custom">csmudie1@gmail.com</a>
+            <!-- Social Media Links -->
+            <div class="row">
+                <div class="social">
+                    <a href="https://www.instagram.com/colinmudie/" target="_blank">
+                        <i id="instagram" class="fab fa-instagram" alt="Instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCnnuJUBPh6GNktCXtfDjj_w/featured?view_as=subscriber"
+                        target="_blank">
+                        <i id="youtube" class="fab fa-youtube" alt="youtube"></i>
+                    </a>
+                    <a href="https://github.com/ColinMudie" target="_blank">
+                        <i id="github" class="fab fa-github" alt="github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/colin-mudie-4034001a2/" target="_blank">
+                        <i id="linkedIn" class="fab fa-linkedin" alt="linkedIn"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"

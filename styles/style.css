@@ -17,3 +17,30 @@ body{
 .nav-link-custom:hover{
     color: rgb(203, 221, 220);
 }
+.card-custom{
+    margin: auto;
+    background-color: #6e8583;
+    color: white;
+    border-color: transparent;
+}
+.card-link-custom{
+    color: white;
+    font-weight: 500;
+    margin: auto;
+}
+.card-link-custom:hover{
+    color: rgb(203, 221, 220);
+}
+.social{
+    padding-top: 5%;
+    margin: auto;
+}
+#instagram, #youtube, #github, #linkedIn{
+    font-size: 200%; 
+    color:  white;
+    transition-duration: 0.4s;
+}
+
+#instagram:hover, #youtube:hover, #github:hover, #linkedIn:hover{
+    color:   rgb(196, 217, 216);
+}
