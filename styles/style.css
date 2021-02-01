@@ -17,6 +17,12 @@ body{
 .nav-link-custom:hover{
     color: rgb(203, 221, 220);
 }
+.active{
+    color: rgb(127, 190, 169);
+}
+.active:hover{
+    color: rgb(151, 193, 179)
+}
 .card-custom{
     margin: auto;
     background-color: #6e8583;
@@ -44,3 +50,15 @@ body{
 #instagram:hover, #youtube:hover, #github:hover, #linkedIn:hover{
     color:   rgb(196, 217, 216);
 }
+
+.projects{
+    background-color: #6e8583;
+    color: white;
+    border-color: transparent;
+}
+.card-deck-custom{
+    margin: 5%;
+}
+/* #pf-quiz{
+    
+} */

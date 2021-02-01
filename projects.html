@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin Mudie</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0acc8112cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- JumboTron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-custom">
+        <div class="container">
+            <h1 class="display-4">Colin Mudie</h1>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="nav flex-column">
+        <a class="nav-link nav-link-custom" href="index.html">Home</a>
+        <a class="nav-link nav-link-custom" href="about.html">About</a>
+        <a class="nav-link nav-link-custom active" href="projects.html">Projects</a>
+    </nav>
+    <div class="card-deck card-deck-custom">
+        <!-- Planet Fitness Quiz -->
+        <div class="card projects" id="pf-quiz" style="max-width: 50rem;">
+            <a href="https://colinmudie.github.io/Planet_Fitness_Quiz/" target="_blank">
+                <img src="assets/Planet_Fitness_Mt_P_Quiz.png" class="card-img-top" alt="Planet Fitness Quiz">
+            </a>
+            <div class="card-body">
+                <h5>Planet Fitness Quiz</h5>
+                <a href="https://github.com/ColinMudie/Planet_Fitness_Quiz" class="card-link-custom">Github link</a>
+                <p class="card-text">I am currently a shift at my local Planet Fitness in Mt. Pleasant, MI.
+                    I decided to create this quiz as a fun way for my staff to test their knowledge of our club or
+                    planet
+                    fitness as a whole.
+                    I had created a timed test in the past and wasn't happy with the results so I wanted to spend the
+                    time
+                    to understand what I didn't like about my last version.
+                    With this one, I used an interval timer that decreases with each incorrect answer. I also used a
+                    second
+                    timer to briefly display whether the selected answer was correct or incorrect
+                    by changing the background color in the text area.
+                </p>
+            </div>
+        </div>
+        <!-- Find It Here -->
+        <div class="card projects" id="find-it-here" style="max-width: 50rem;">
+            <a href="https://jjg1488.github.io/find-your-movie/" target="_blank">
+                <img src="assets/Where's_It_At.png" class="card-img-top" alt="Find It Here">
+            </a>
+            <div class="card-body">
+                <h5>Find It Here</h5>
+                <a href="https://github.com/JJG1488/find-your-movie" class="card-link-custom">Github link</a>
+                <p class="card-text">This is a basic movie search program that attempts to solve the issue of looking up
+                    a
+                    movie on a Netflix, only to find it is only available on Hulu. This Project was made with the help
+                    of <a href="https://github.com/JJG1488" class="card-link-custom" target="_blank">James Gault</a>
+                    and <a href="https://github.com/JDSevilla" class="card-link-custom" target="_blank">Javier Sevilla</a>. This website
+                    takes the users search input
+                    and through the use of web APIs, it will return the location you can find the movie at, data from
+                    imdb,
+                    as well as a recommended and previously viewed list. Since we were a team I was focused on
+                    delegating
+                    tasks for my team members
+                    as well as gathering and pinning the API data with AJAX calls in JS to the HTML.
+                </p>
+            </div>
+        </div>
+        <!-- Weather Dashboard -->
+        <div class="card projects" id="weather-dashboard" style="max-width: 50rem;">
+            <a href="https://colinmudie.github.io/Weather-Dashboard/" target="_blank">
+                <img src="assets/Weather_Dashboard.png" class="card-img-top" alt="Weather Dashboard">
+            </a>
+            <div class="card-body">
+                <h5>Find It Here</h5>
+                <a href="https://github.com/ColinMudie/Weather-Dashboard" class="card-link-custom">Github link</a>
+                <p class="card-text">This was where my love for gathering API information started!
+                    This basic weather app used data from <a href="https://openweathermap.org/api"
+                        class="card-link-custom" target="_blank">Openweathermap</a> and pins it to the DOM using JavaScript. This was
+                    also
+                    my first instance
+                    of dynamically added elements to the DOM through JS. The app features the use of local storage to be
+                    able to recall previously searched cities.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
