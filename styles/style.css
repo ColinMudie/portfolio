@@ -1,0 +1,19 @@
+body{
+    background-color: #718483;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.jumbotron-custom{
+    background-color: #6e8583;
+    color: white;
+}  
+.navbar-custom{
+    background-color:  rgb(99, 121, 120);
+    color: white;
+}
+.nav-link-custom{
+    color: white;
+}
+.nav-link-custom:hover{
+    color: rgb(203, 221, 220);
+}
