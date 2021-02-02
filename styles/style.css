@@ -2,6 +2,7 @@ body{
     background-color: #718483;
     background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
     font-family: 'Noto Sans JP', sans-serif;
+    color: white;
 }
 .jumbotron-custom{
     background-color: #6e8583;
@@ -59,6 +60,31 @@ body{
 .card-deck-custom{
     margin: 5%;
 }
-/* #pf-quiz{
-    
+.headshot{
+    max-width: 90%;
+    max-height: 90%;
+}
+.container-custom{
+    margin-top: 10%;
+}
+.whoami{
+    margin-bottom: 10%;
+}
+.tchalla{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+.modular{
+    width: 75%;
+    height: 75%;
+}
+.pic-custom{
+    margin-bottom: -18%;
+}
+/* .cat-text{
+    margin-top: 10%;
+}
+.modular-text{
+    margin-top: 10%;
 } */
