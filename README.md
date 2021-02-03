@@ -32,6 +32,12 @@ Social Media Icons: [Font Awesome](https://fontawesome.com/icons?d=gallery)
 
 formatting: [Bootstrap](https://getbootstrap.com/)
 
+## Future
+
+- I need to update my resume
+- I would like to get professional headshots taken
+- Keep up and update newer projects as they are created.
+
 
 ## License
 
